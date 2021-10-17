@@ -1,0 +1,12 @@
+title: 酷Q文库
+head: [
+    ['link', { rel: 'icon', href: '/logo.png' }]
+  ]
+permalink: "/:slug"
+themeConfig:
+    logo: '/logo.png'
+    sidebar:
+      title: '法律'
+      link: "/tos/"
+      children: ["/README.md","/privacy.md"]
+       
